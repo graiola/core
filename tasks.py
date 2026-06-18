@@ -167,7 +167,7 @@ def install_system(c: Context, os_info: OsInfo, hide: bool, no_python: bool) -> 
     if os_info.like == OsLike.DEBIAN:
         c.run(
             "sudo apt install -y automake pkg-config gcc libev-dev nftables "
-            f"iproute2 ethtool tk bash",
+            "iproute2 ethtool bash",
             hide=hide,
         )
         if not no_python:

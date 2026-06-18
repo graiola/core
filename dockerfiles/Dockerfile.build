@@ -10,7 +10,7 @@ RUN apt-get update -y && \
     nftables \
     iproute2 \
     ethtool \
-    tk \
+    python3-tk \
     bash \
     gem \
     curl \
